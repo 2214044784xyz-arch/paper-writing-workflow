@@ -1,0 +1,22 @@
+# dependencies / builds
+node_modules/
+dist/
+*.log
+
+# Harness runtime state (never commit run artifacts or API keys)
+.dsh/
+runs/
+memory.json
+
+# OS noise
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# editor noise
+.vscode/
+.idea/
+*.swp
+
+# local-only demo corpus (real manuscript content stays out of the public repo)
+skills/paper-writing/demo/

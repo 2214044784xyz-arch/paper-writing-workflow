@@ -1,0 +1,3 @@
+- insert:
+    - id: writing-workflow
+      name: '@local/writing-workflow'
